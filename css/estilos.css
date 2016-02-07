@@ -1,0 +1,13 @@
+footer{
+	text-align: center;
+	margin: 20px 0px 0px 0px;
+	padding: 20px;
+	background: lightgray;
+}
+
+
+
+#icon1, #icon2, #icon3{
+	position: relative;
+	left:21%;
+}
