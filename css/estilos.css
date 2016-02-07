@@ -16,3 +16,25 @@ body{
 	padding-top: 70px;
 }
 
+a{
+	transition-duration:0.3s;
+}
+
+nav ul li a{
+	background: none;
+	color: black;
+	text-shadow: 0px 0px 1px white;
+}
+
+nav ul li a:hover{
+	background: rgba(0,0,0,1);
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+
+	background: rgba(255,255,255,0.6);
+}
+
+.nav-tabs{
+	border-bottom: none;
+}
