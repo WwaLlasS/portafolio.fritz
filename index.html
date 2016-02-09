@@ -24,17 +24,27 @@
 <body>
 	<header>
 		<nav class="navbar-fixed-top"> <!-- navbar navbar-default -->
-			<a class="navbar-brand" href="index.html">Brand Logo</a>
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<i id="icon4"></i>
+				</button>
+					<a class="navbar-brand" href="index.html">Brand Logo</a>
+			</div>
+
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav nav-tabs">
 				<li role="presentation" class="active"><a id="btn-ini" href="#inicio" aria-controls="inicio" role="tab" data-toggle="tab">Inicio</a></li>
 				<li role="presentation"><a href="#acerca" aria-controls="inicio" role="tab" data-toggle="tab">Acerca de</a></li>
 				<li role="presentation"><a href="#portafolio" aria-controls="inicio" role="tab" data-toggle="tab">Portafolio</a></li>
 				<li role="presentation"><a href="#contacto" aria-controls="inicio" role="tab" data-toggle="tab">Contacto</a></li>
 			</ul>
+		</div>
 		</nav>
 	</header>
+
+<!-- Contenedor de pestañas -->
 	<div class="tab-content">
-		<!-- Tab #1 -->
+		<!-- Pestaña #1 -->
 		<div role="tabpanel" class="tab-pane active" id="inicio">
 			<!-- Aqui inicia el carousel -->
 			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -84,7 +94,7 @@
 			<section class="container-fluid">
 				<article class="row">
 					<div class="jumbotron">
-						<h2 class="text-center">Bienvenidos <small>a mi sitío web</small></h2>
+						<h1 class="text-center">Bienvenidos <small>a mi sitío web</small></h1>
 						<p class="text-center text-capitalize">Distinctio molestias, deleniti impedit excepturi, quisquam commodi iure!</p>
 					</div>
 				</article>
@@ -110,7 +120,7 @@
 			</section>
 		</div>
 
-	<!-- TAB #2 -->
+		<!-- Pestaña #2 -->
 
 		<div role="tabpanel" class="tab-pane fade" id="acerca">
 			<section class="container">
@@ -123,35 +133,35 @@
 
 		</div>
 
-	<!-- TAB #3 -->
+		<!-- Pestaña #3 -->
 
-    	<div role="tabpanel" class="tab-pane fade" id="portafolio">
+		<div role="tabpanel" class="tab-pane fade" id="portafolio">
 
-    		<section class="container">
+			<section class="container">
 				<article class="jumbotron text-center">
 					<h1>Hola, Mundo!</h1>
 					<p>Sed, molestiae. Assumenda nam modi repudiandae cum, atque minus perferendis natus porro vitae distinctio minima deleniti blanditiis alias quis veniam repellat consequatur!</p>
 				</article>
 			</section>
 
-    	</div>
+		</div>
 
-    <!-- TAB #4 -->
+		<!-- Pestaña #4 -->
 
-    	<div role="tabpanel" class="tab-pane fade" id="contacto">
+		<div role="tabpanel" class="tab-pane fade" id="contacto">
 
-    		<section class="container">
+			<section class="container">
 				<article class="jumbotron text-right">
 					<h1>Hola, Mundo!</h1>
 					<p>Sed, molestiae. Assumenda nam modi repudiandae cum, atque minus perferendis natus porro vitae distinctio minima deleniti blanditiis alias quis veniam repellat consequatur!</p>
 				</article>
 			</section>
 
-    	</div>
+		</div>
 
 	</div>
 	<footer>	
-		<p>Williams Rincón &copy; 2016 | <a href="https://twitter.com/_wwallass" title="Mi twitter">@_WwaLlasS</a></p>
+		<p>Williams Rincón &copy; 2016 | <a href="https://twitter.com/_wwallass" title="Mi twitter" target="_blank">@_WwaLlasS</a></p>
 	</footer>
 	<script type="text/javascript" src="js/funct.js"></script>
 </body>

@@ -37,6 +37,24 @@ $(document).ready(function(){
     		icon3.set('square-check');
 
     	});
+//Codigo del icono 4
+    var icon4 = new Marka('#icon4');
+    icon4.set('bars')
+        .color('#cfd8dc')
+        .size('35');
+
+        $('#icon4').click(function(){
+            var c = $( this ).hasClass( "marka-icon-bars" );
+            if(c == true){
+                icon4.set('times');
+
+            } else{
+                icon4.set('bars');
+
+            };
+            
+
+        });
 
     $('#btn-ini').click(function(){
     	$('#inicio').addClass('fade');

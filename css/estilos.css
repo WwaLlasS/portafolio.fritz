@@ -8,8 +8,8 @@ footer{
 
 
 #icon1, #icon2, #icon3{
-	position: relative;
-	left:21%;
+	display: block;
+	margin: auto;
 }
 
 body{
