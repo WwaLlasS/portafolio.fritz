@@ -38,3 +38,11 @@ nav ul li a:hover{
 .nav-tabs{
 	border-bottom: none;
 }
+
+.division{
+	text-align: center;
+	background: lightgray;
+	margin:50px 0px;
+	border:5px dashed white;
+
+}
